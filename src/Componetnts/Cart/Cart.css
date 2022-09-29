@@ -1,6 +1,7 @@
 .cart {
   position: sticky;
   top: 0;
+  margin-bottom: 50px;
 }
 
 .btn-activity {
@@ -29,4 +30,18 @@
 
 .btn-activity:hover {
   background-color: rgb(165, 108, 137);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+  .cart {
+    margin-left: 80px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 910px) {
+  .cart {
+    margin-left: 80px;
+    width: 280px;
+  }
 }
