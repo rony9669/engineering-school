@@ -1,0 +1,26 @@
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgb(7, 108, 231);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.my-image {
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+.my-title {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(41, 166, 177);
+}
