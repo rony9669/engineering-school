@@ -28,13 +28,10 @@ const BlogQuestion = () => {
                 </summary>
                 <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
                   <span>PROPS: </span>The Data is passed from one component to
-                  another.It is Immutable (cannot be modified).Props can be used
-                  with state and functional components.Props are read-only.{" "}
+                  another.It is Immutable.
                   <br />
                   <span>STATE: </span>The Data is passed within the component
-                  only.It is Mutable ( can be modified).State can be used only
-                  with the state components/class component (Before 16.0).State
-                  is both read and write.
+                  only.It is Mutable.
                 </p>
               </details>
               <details className="w-full rounded-lg ring-1 ring-purple-600">
