@@ -22,7 +22,12 @@ const Cart = (props) => {
       <div>
         <MyInfo></MyInfo>
       </div>
-      <div></div>
+      <div>
+        <BreakTime
+          handleClick={handleClick}
+          handleAddToCartClick={handleAddToCartClick}
+        ></BreakTime>
+      </div>
       <div>
         <h3 className="reading-summary">Reading summary</h3>
         <div className="reading-time">
