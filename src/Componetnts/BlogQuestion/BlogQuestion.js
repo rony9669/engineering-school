@@ -37,6 +37,17 @@ const BlogQuestion = () => {
                   is both read and write.
                 </p>
               </details>
+              <details className="w-full rounded-lg ring-1 ring-purple-600">
+                <summary className="px-4 py-6">Why is useEffect used?</summary>
+                <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                  <span>Answer: </span>The motivation behind the introduction of
+                  useEffect Hook is to eliminate the side-effects of using
+                  class-based components. For example, tasks like updating the
+                  DOM, fetching data from API end-points, setting up
+                  subscriptions or timers, etc can be lead to unwarranted
+                  side-effects.
+                </p>
+              </details>
             </div>
           </div>
         </div>
